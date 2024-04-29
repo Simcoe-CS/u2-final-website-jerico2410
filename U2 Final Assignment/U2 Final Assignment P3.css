@@ -1,0 +1,30 @@
+.h1 {
+    border: 5px solid  #605c4eff ;
+    padding: 15px;
+    margin: 0px 0px;
+    background-color:  rgba(148, 97, 49, 0.305);
+    text-align: center;
+    font-family: "Rubik 80s Fade", system-ui;
+    font-weight: 15;
+    font-style: bold;
+    display: flex;
+    place-content:left ;
+}
+
+.ls {
+    background-color: #605c4eff ;
+    text-align: center;
+}
+
+.map1 {
+    display: flex;
+    justify-content: center;
+}
+
+.pagel {
+    display: flex;
+    justify-content: end;
+   color: #dbfeb8ff ;
+   background-color: rgba(148, 97, 49, 0.305);
+   border: 4px solid  #605c4eff ;
+} 

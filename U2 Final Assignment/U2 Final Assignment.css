@@ -1,0 +1,86 @@
+
+.h1 {
+    border: 5px solid  #605c4eff ;
+    padding: 15px;
+    margin: 0px 0px;
+    background-color:  rgba(148, 97, 49, 0.305);
+    text-align: center;
+    font-family: "Rubik 80s Fade", system-ui;
+    font-weight: 15;
+    font-style: bold;
+    display: flex;
+    place-content:left ;
+}
+
+body {
+    border:8px solid #605c4eff;
+}
+
+.container {
+    display: flex;
+    place-content: center;
+}
+
+.img3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    width: 80%;
+    margin: auto;  
+   align-items: center;
+   
+}
+
+.paragraphs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    background-color:#c5edacff ; 
+    border:3px solid #605c4eff;
+}
+
+.pc {
+    font-size:2cap;
+    width: 80%;
+    margin: auto;
+}
+
+.pcend {
+    font-size:2cap;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(148, 97, 49, 0.305)
+}
+
+:root {
+    /* CSS HEX */
+--pale-dogwood: #d3c1c3ff;
+--walnut-brown: #605c4eff;
+--cambridge-blue: #99c2a2ff;
+--tea-green: #c5edacff;
+--tea-green-2: #dbfeb8ff;
+}
+
+.content1 {
+    width: 80%;
+    margin: auto;
+    font-size: 2cap;
+}
+
+#pagelink {
+    display: flex;
+    justify-content: end;
+   color: #dbfeb8ff ;
+   background-color: rgba(148, 97, 49, 0.305);
+   border: 4px solid  #605c4eff ;
+} 
+#pagelink:hover {
+    color: red ;
+}
+#pagelink:active {
+    color: ;
+}
+
+.rubik-80s fade-regular {
+    font-family: "Rubik 80s Fade", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
